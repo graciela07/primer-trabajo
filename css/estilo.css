@@ -1,0 +1,255 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@import url('https://fonts.googleapis.com/css2? family= Akshar:wght@300 & family= Barlow & family= PT+Sans:ital,wght@1,700 & family= Roboto:wght@ 300 & family= Source+Sans+Pro:wght@300 & display=swap');
+header{
+    background-color: beige;
+    font-family:'PT Sans', sans-serif; 
+    padding: 0%;
+    
+    
+}
+.sub{
+    background-image: linear-gradient(currentColor , currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 1px;
+    transition: background-size .3s;
+}
+.sub:hover, .sub:focus{
+     background-size: 100% 2px;
+ }
+
+    
+
+header h1{
+    font-family:'PT Sans', sans-serif ;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: white;
+    text-transform: none;
+    
+}
+ body ul li{
+
+    display: inline-block;
+    margin: 10px;  
+    
+}
+li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+}
+
+
+div{
+    background-color: bisque;
+    inline-size: auto;
+    text-align: center;
+    font-weight: bold;
+}
+.SobreNosotros{
+    background-color: beige;
+
+}
+.sobreNosotros h4{
+    text-align: center;
+    font-size: 1rem;
+    color: brown;
+
+} 
+.sobreNosotros p{
+    text-align: justify;
+    color: brown;
+    font-size: 0.5 rem;
+    margin-top: 20px;
+}
+    
+
+
+/*destinos turisticos*/
+header{
+    background-image: linear-gradient( #603813,#b29f94)
+       
+}
+        
+
+header nav h1 ul{
+   
+    text-align: center;
+    display: inline-block;
+    padding: 0%;
+    
+
+}
+
+.destinosTuristicos ul li{
+
+    
+    text-align: center;
+    
+}
+.sanRafael{
+    margin-right: 200px;
+    margin-left: 200px;
+    width: 300px;
+
+}
+    
+.altaMontaña{
+
+    width: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+.tourDelVino{
+    width: 300px;
+    padding-left: 100px;
+
+}
+
+/*tipos de excursiones*/
+
+body{
+    background-color: bisque;
+
+}
+
+.excursiones{
+    background-image: linear-gradient(#dbdbdb ,#f2f2f2)
+        
+         
+}
+.excursiones  li{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.imagen1{
+    width: 300px;
+    height: 200px;
+   
+}  
+@keyframes imagen1{
+
+
+0% {
+    width:200px;
+}
+
+50% {
+    width: 250 px;
+}
+
+100% {width: 260px;
+}
+}
+
+.animacion{
+    animation-name: imagen1;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 3s;
+} 
+
+.imagen2{
+    width: 300px;
+    height: 200px;
+}
+.imagen3{
+    width: 300px;
+    height: 200px;
+    
+}
+.imagen4{
+    width: 300px;
+    height: 200px;
+}
+ 
+/*reserva*/
+.fondoImagen{
+    background-image: url(../imagenes/aventura3.jpg)
+    
+}
+h1{
+        text-align: center;
+}
+
+ul  li a{
+    text-align: center;
+}
+   .formulario{
+       position: fixed;
+       left: 40%;
+       margin: 100px 15px 15px 15px;
+       padding:  30px 30px 30px 30px;
+       border: solid 1px chocolate ;
+       border-radius: 20px;
+       max-width: 300px;
+   }           
+ 
+    .formularioInternos{
+       background-color: antiquewhite;
+        border: none;
+        border-width: 2px;
+        border-color: brown;
+        border-radius: 20px;
+        padding: 10px 10px 15px 15px;
+    }
+    .primero:hover{
+        background-color: #5f7e78;
+        height: 30px;
+       
+    }
+    .primero{
+        background-color: aliceblue;
+        padding: 5px;
+        border: none;
+    }
+              
+   .segundo:hover{
+    background-color: #5f7e78;
+    height: 30px;
+   }
+    
+    .segundo{
+      background-color: aliceblue;
+      padding: 5px;
+      border:none ;
+}
+.footer{
+    background-color: bisque;
+
+}
+.footer p{
+    color: black;
+}
+
+ 
+
+/*contactanos*/
+.Redes{
+    background-color: bisque;
+    font-family:'PT Sans', sans-serif ;
+    
+}
+
+.visitanos{
+    background-color: beige;
+    font-family:'PT Sans', sans-serif ;
+}
+.mapa iframe{
+    padding-left: 150px;
+    padding-right: 250px;
+    height: 50px;
+
+}
