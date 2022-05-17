@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/estilo.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Destinos Turisticos</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
 </head>
 <body>
@@ -39,14 +40,19 @@
     <!-- aca iria un carrusel de imagenes
      -->
     <div class="zonas">
-        <img class="sanRafael"src="../imagenes/San Rafael2.jpg" alt="">
-        <img class="altaMontaña" src="../imagenes/alta montaña1.jpg" alt="">
-        <img class= "tourDelVino"src="../imagenes/tour del vino2.jpg"alt="">
+        <img class data-aos="zoom-in"src="../imagenes/San Rafael2.jpg" alt="">
+        <img class data-aos="zoom-in" src="../imagenes/alta montaña1.jpg" alt="">
+        <img class data-aos="zoom-in "src="../imagenes/tour del vino2.jpg"alt="">
     </div>
    
     <footer>
         <p>Sitio Web creado por <strong>Rosalia</strong></p>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
